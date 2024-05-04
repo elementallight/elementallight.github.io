@@ -1,66 +1,67 @@
 body{
-background-color:#07004d;
-padding:15px;
+background-color:#000;
+background-image: url("https://elemental-light.xyz/bg.jpg");
+background-size:100%;
+margin:15px;
 }
 .sedan-regular {
   font-family: "Sedan", serif;
   font-weight: 400;
   font-style: normal;
 }
-
 .sedan-regular-italic {
   font-family: "Sedan", serif;
   font-weight: 400;
   font-style: italic;
 }
+#nav{
+    background-color: rgba(0, 0, 10, 0.5);
+    background-blend-mode: overlay;
+    border: 5px ridge rgba(0, 0, 0, 0.5);
+    background-size: 100%;
+    width:1500px;
+    height: 50px;
+    z-index: 1;
+    margin: 15px;
+}
+#linkbox p, #linkbox h2, #linkbox a{
+    display: inline;
+    float: left;
+    margin-left: 5px;
+    color:white;
+    font-size: 25px;
+    font-family: sedan;
+    margin: 10px;
+    margin-left: 25px;
+    text-decoration: none;
+}
+#linkbox h2{
+    color: gray;
+}
+#main{
+    background-color: rgba(0, 0, 10, 0.5);
+    background-blend-mode: overlay;
+    border: 5px ridge rgba(0, 0, 0, 0.5);
+    background-size: 100%;
+    width:1500px;
+    height: 870px;
+    z-index: 1;
+    margin: 15px;
+    margin-top:50px ;
 
-#pimage{
-	position: relative;
-	left: 5px;
-	top: 5px;
-	background-image: url("Pimg.png");
-	background-position: center;
-	background-size: 500px;
-	height: 400px;
-	width: 400px;
-	border-style: solid;
-border-radius: 360px;
-	border-color: #595959;
-	border: 50px;
-	z-index: 1;
 }
-#pimgbord{
-background-color: #595959;
-height: 410px;
-width: 410px;
-border-radius: 360px;
-z-index: 2;
-}
-.cont{
-    position: absolute;
-    top: 159px;
-    left: 250px;
-    background-color: #595959;
-    height: 270px;
-    width: 810px;
-    z-index: 0;
-    border-radius: 25px;
-}
-#infbox {
-    position: relative;
-    z-index: 0;
-    background-color: #CaCfD6;
-    top: -30px;
-    left: 5px;
-    height: 259px;
-    width: 800px;
-    border-radius: 25px;
-}
-#inftxt{
-position: inherit;
-    top: 20px;
-    left: 25%;
-    font-size: 35px;
-    width: 592px;
-    font-family: "Sedan", serif;
+
+#fml{
+    position: fixed;
+    right: 0px;
+    top: 100px;
+    background-color: rgba(0, 0, 10, 0.5);
+    background-blend-mode: overlay;
+    border: 5px ridge rgba(0, 0, 0, 0.5);
+    width:525px;
+    height: 870px;
+    z-index: 1;
+    margin: 25px;
+
+
 }
